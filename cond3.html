@@ -7,8 +7,38 @@
     <title>satã</title>
 </head>
 <body>
-    <p>estrutura de decisão</p>
+    <p> Informe os seus dados para confirmar a sua categoria</p>
 <script>
+let opc = prompt("Digite 1 para a corrida e 2 para a natação")
+
+if (opc == "1") {
+    document.write("Corrida<br>")
+let nome = prompt("Digite seu nome:")
+let sexo = prompt("Informe seu sexo:")
+let idade = parseInt(prompt("Digite sua idade:"))
+
+if (idade <= 7) {
+    document.write ("Idade:"+idade+"Categoria: Leite<br>")
+} else [
+    document.write("Idade:"+idade+"Categoria: Juvenil<br>")
+]
+
+} else {
+    document.write("Natação<br>")
+let nome = prompt("Digite seu nome:")
+let sexo = prompt("Informe seu sexo:")
+let idade = parseInt(prompt("Digite sua idade:"))
+if (idade <= 7) {
+    document.write("Idade:"+idade+"Categoria: Leite<br>")
+} else {
+    document.write("Idade:"+idade+"Categoria: Juvenil<br>")
+}
+
+}
+
+
+
+
 
 
 
